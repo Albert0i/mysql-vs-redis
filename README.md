@@ -72,7 +72,7 @@ I do not oppose to the idea of ORM but it does pose some overhead indeed. Using 
 
 In Redis, the story is different. To get 100 posts is 15 ms, not as fast as one can expect... Which means our Redis server can serve 6666 read requests per second in current setting. 
 
-The difference is enlarged when more operations are involved. 
+However, the difference diverges when more operations are involved. 
 
 
 #### III. Bibliography 
