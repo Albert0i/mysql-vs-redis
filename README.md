@@ -64,6 +64,10 @@ npm run seed-redis
 
 
 #### II. Run Run Run 
+![alt sql](img/test-sql.JPG)
+
+![alt redis](img/test-redis.JPG)
+
 
 #### III. Bibliography 
 1. [ioredis](https://github.com/redis/ioredis)
@@ -72,10 +76,7 @@ npm run seed-redis
 4. [THE BIG FOUR](https://www.gutenberg.org/files/70114/70114-h/70114-h.htm)
 
 
-![alt sql](img/test-sql.JPG)
-
-![alt redis](img/test-redis.JPG)
-
 #### Epilogue 
+
 
 ### EOF (2024/08/09)
