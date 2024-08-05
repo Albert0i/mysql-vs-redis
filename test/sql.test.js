@@ -113,15 +113,3 @@ test("select 100 posts and delete (SQL)", async () => {
         await prisma.$executeRaw`delete from posts where id=${response.id}`
     }    
 })
-
-
-// test("select 100 posts (ORM)", async () => {
-//   // Time matters... 
-//   let response, json 
-//   for (let j=1; j <=10; j++) {
-//     for (let i=1; i <= 100; i++) {
-//       response = await fetch(`http://localhost:3000/api/posts/${i}`)
-//       json = await response.json()
-//     }
-//   }
-// }, 60 * 1000)
