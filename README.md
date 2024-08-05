@@ -14,7 +14,7 @@ npm install jest --save-dev
 
 Sample data are [100 posts](https://jsonplaceholder.typicode.com/posts) from [{JSON} Placeholder](https://jsonplaceholder.typicode.com/). I slight modify it for easy ingestion to databases. 
 
-MySQL Version 8.0.30 and Redis Version 7.4.2 are installed locally, we choose package prisma for MySQL and ioredis for Redis. As of this writing, Choosing prisma simply because it's possible to move to other RDBMS with ease and can compare ORM and raw SQL performance. 
+MySQL Version 8.0.30 and Redis Version 7.4.2 are installed locally, we choose package prisma for MySQL and ioredis for Redis. Choosing prisma simply because it's possible to move to other RDBMS with ease and can compare ORM and raw SQL performance. 
 
 To begin with: 
 ```
