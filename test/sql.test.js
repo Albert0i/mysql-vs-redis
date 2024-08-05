@@ -2,6 +2,7 @@ import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
 
+afterAll( async () => await prisma.posts.count({}));
 afterAll( async () => await prisma.$disconnect() );
 
 test("select post 66 (ORM)", async () => {

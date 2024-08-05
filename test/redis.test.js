@@ -1,5 +1,6 @@
 import { redisClient, disconnect } from '../src/config/redisClient.js'
 
+afterAll( async () => await redisClient.ping() );
 afterAll( async () => await disconnect() );
 
 test("get post 66", async () => {
