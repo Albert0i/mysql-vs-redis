@@ -70,6 +70,7 @@ test("get 100 posts and delete", async () => {
     response = await redisClient.hgetall(`posts:${i}`) 
     response.id = parseInt(response.id, 10)
     response.userId = parseInt(response.userId, 10)
-    await redisClient.del(`posts:${i}`)
+    //await redisClient.del(`posts:${i}`)
+    await redisClient.unlink(`posts:${i}`)
   }
 })
