@@ -66,7 +66,7 @@ npm run seed-redis
 #### II. Run Run Run 
 ![alt sql](img/test-sql.JPG)
 
-I do not oppose to the idea of ORM but it does pose some overhead. Using direct SQL to read 100 posts is 29ms, which is quite fast, much fast than I can expect... Which means our MySQL server can serve 3448 read requests per second in current setting. 
+I do not oppose to the idea of ORM but it does pose some overhead indeed. Using direct SQL to read 100 posts is 29ms, which is quite fast, much fast than I can expect... Which means our MySQL server can serve 3448 read requests per second in current setting. 
 
 ![alt redis](img/test-redis.JPG)
 
