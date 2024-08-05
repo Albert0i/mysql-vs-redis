@@ -57,7 +57,7 @@ npx prisma db seed
 
 We use hash to store posts data in Redis. No schema is necessary. A seed-redis.js is create in config folder. To seed database with: 
 ```
-node src/config/seed-redis.js
+npm run seed-redis
 ```
 
 ![alt posts redis](img/posts-redis.JPG)
