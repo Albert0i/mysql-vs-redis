@@ -1,6 +1,6 @@
 ### MySQL vs Redis 
 
-Ever since I started learning Redis, I was told Redis is very fast. But how fast it? 
+Ever since I started learning Redis, I was told that it is very fast.... But how fast it when comparing MySQL for example? 
 
 ![alt sql](img/test-sql.JPG)
 
