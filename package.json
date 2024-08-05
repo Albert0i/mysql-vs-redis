@@ -1,0 +1,26 @@
+{
+  "name": "mysql-vs-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "redis": "start \"redis server\" /MIN redis-server ./redis/conf/redis.conf",
+    "seed-redis": "node src/config/seed-redis.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "ioredis": "^5.4.1",
+    "prisma": "^5.17.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  }
+}
