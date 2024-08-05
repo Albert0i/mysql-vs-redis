@@ -2,7 +2,7 @@
 
 
 #### Prologue 
-Time, as a ambiguous concept, is hard to fathom accurately. We can surely say that *sixty years is too short* and at the same time *60 seconds is too long* without any contradictions. Ever since I started learning Redis, I was told that it is very fast.... But how fast it when comparing with MySQL, for example? 
+Time, as an ambiguous concept, is hard to fathom accurately. We can surely say that *sixty years is too short* and at the same time *60 seconds is too long* without any contradictions. Ever since I started learning Redis, I was told that it is very fast.... But how fast it when comparing with MySQL, for example? 
 
 
 #### I. System setup 
