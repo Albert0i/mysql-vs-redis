@@ -70,7 +70,7 @@ npm run seed-redis
 
 
 #### II. Read Test
-We create 1,000,000 records in MySQL and 1,000,000 hashes in Redis. The test is based on retrieving 100,000 records/hashes via primary key by random. Repeatedly running until the yields become stable. 
+We create 1,000,000 records in MySQL and 1,000,000 hashes in Redis. The test is based on retrieving 100,000 records/hashes via primary key in random. Repeatedly running until the yields become stable. 
 
 ![alt sql](img/test-sql.JPG)
 
