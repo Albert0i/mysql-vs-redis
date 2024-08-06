@@ -99,7 +99,7 @@ Our test shows that primary key access in Redis is four times faster than MySQL.
 
 
 #### Epilogue 
-I must concede, balancing the speed and flexibility of query, RDBMS such as MySQL, is always a good move. But there are some cases where speed is in predominant position, Redis would be an obvious choice. 
+I must concede, balancing the speed and flexibility of query, RDBMS such as MySQL, is always a good move. But there are cases where speed is in predominant position, Redis would be an obvious choice. 
 
 
 [![alt ](img/vlcsnap-2024-08-05-14h16m06s109.png)](https://youtu.be/rJQWq5bpp1E)
