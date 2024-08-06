@@ -1,4 +1,4 @@
-### MySQL vs Redis 
+### MySQL vs Redis ─── A Match in a Million! 
 
 
 #### Prologue 
@@ -67,16 +67,16 @@ npm run seed-redis
 ![alt posts redis](img/posts-redis.JPG)
 
 
-#### II. Run Run Run 
+#### II. Test Test Test
+We create 1,000,000 records in MySQL and 1,000,000 hashes in Redis. The test is done on retrieving 100,000 records/hashes by random. Repeatedly running several times. 
+
 ![alt sql](img/test-sql.JPG)
 
-I do not oppose to the idea of ORM but it does pose some overhead indeed. Using direct SQL to read 10,000 posts is 2477 ms, much faster than one can expect... Which means our MySQL server can serve 403 read requests per second in current setting. 
+I do not oppose to the idea of ORM but it does pose some overhead. Using raw SQL to select 100,000 posts is 45863 ms, 0.45863 ms per post. Which means our MySQL server can serve 2180 read requests per second in raw SQL and 1594 requests in ORM. 
 
 ![alt redis](img/test-redis.JPG)
 
-In Redis, the story is different. To get 10,000 posts is 872 ms, which is fast but not as fast as one can expect... Which means our Redis server can serve 1146 read requests per second in current setting. 
-
-However, the difference diverges when more complex operations are involved. 
+In Redis, the story is different. To get 100,000 posts is 10986 ms, 0.10986 per post. Which means our Redis server can serve 9102 read requests per second in current setting. 
 
 
 #### III. Bibliography 
