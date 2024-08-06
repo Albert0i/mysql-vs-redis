@@ -88,7 +88,7 @@ Modern RDBMS index is organized in form of [B-tree](https://en.wikipedia.org/wik
 
 Data in RDBMS is stored closely togther, index is essential mean to enable fast access. In Redis, data is stored scatteringly, the actual location of data is obtained via calculation of key. No additional space and time on index is required and constant time access is always ensured. 
 
-Our test shows that primary key access in Redis is four times faster than MySQL. 
+Our test shows that primary key access in Redis is four times faster than in MySQL. 
 
 
 #### IV. Bibliography 
