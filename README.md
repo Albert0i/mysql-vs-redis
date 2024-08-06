@@ -78,7 +78,7 @@ I do not oppose to the idea of ORM but it does pose some overhead. Using raw SQL
 
 In Redis, the story is different. To get 100,000 posts is 10986 ms, 0.10986 ms per post. Which means our Redis server can serve 9102 read requests per second in current setting. 
 
-As you can see, all tests are done on the same 
+As you can see, all tests are done locally. No network latency or other routing overhead involved. The numbers are in theory but not factitious. 
 
 
 #### III. Bibliography 
