@@ -59,7 +59,7 @@ npx prisma db seed
 
 ![alt posts mysql](img/posts-mysql.JPG)
 
-We use hash to store posts data in Redis. No schema is necessary. A seed-redis.js is create in config folder. To seed database with: 
+We use hash to store posts data in Redis. No schema is necessary. A `seed-redis.js` is create in `config` folder. To seed database with: 
 ```
 npm run seed-redis
 ```
@@ -68,7 +68,7 @@ npm run seed-redis
 
 
 #### II. Test Test Test
-We create 1,000,000 records in MySQL and 1,000,000 hashes in Redis. The test is done on retrieving 100,000 records/hashes by random. Repeatedly running several times. 
+We create 1,000,000 records in MySQL and 1,000,000 hashes in Redis. The test is based on retrieving 100,000 records/hashes via primary key by random. Repeatedly running several times until the yields become stable. 
 
 ![alt sql](img/test-sql.JPG)
 
@@ -77,6 +77,8 @@ I do not oppose to the idea of ORM but it does pose some overhead. Using raw SQL
 ![alt redis](img/test-redis.JPG)
 
 In Redis, the story is different. To get 100,000 posts is 10986 ms, 0.10986 ms per post. Which means our Redis server can serve 9102 read requests per second in current setting. 
+
+As you can see, all tests are done on the same 
 
 
 #### III. Bibliography 
