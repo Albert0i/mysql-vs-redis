@@ -12,20 +12,20 @@ npm install ioredis prisma
 npm install jest --save-dev 
 ```
 
-Sample data are [100 posts](https://jsonplaceholder.typicode.com/posts) from [{JSON} Placeholder](https://jsonplaceholder.typicode.com/). I slight modify it for easy ingestion to databases. 
+Sample data are [100 posts](https://jsonplaceholder.typicode.com/posts) from [{JSON} Placeholder](https://jsonplaceholder.typicode.com/). I slight modify it for easy ingestion. 
 
 MySQL Version 8.0.30 and Redis Version 7.4.2 are installed locally.
 ![alt mysql](img/mysql.JPG)
 ![alt redis](img/redis.JPG)
 
-Choose [prisma](https://www.npmjs.com/package/prisma) for MySQL and [ioredis](https://github.com/redis/ioredis) for Redis. Simply because prisma is cross platform and we can compare ORM and raw SQL performance whenever necessary. 
+Choose [prisma](https://www.npmjs.com/package/prisma) for MySQL and [ioredis](https://github.com/redis/ioredis) for Redis. Because prisma is cross-platform and we can shift to other RDBMS or compare ORM and raw SQL whenever necessary. 
 
 To begin with: 
 ```
 npx prisma init
 ```
 
-A Posts model is created in prisma/schema.prisma:
+A Posts model is created in `prisma/schema.prisma`:
 ```
 model Posts {
   id        Int     @id 
@@ -48,11 +48,11 @@ npx prisma generate
 Add this code fragment to package.json: 
 ```
   "prisma": {
-    "seed": "node prisma/seed.js"
+    "seed": "node prisma/seed-mysql.js"
   }
 ```
 
-Add seed.js to prisma folder, and to seed database with: 
+Add `seed-mysql.js` to prisma folder, and to seed database with: 
 ```
 npx prisma db seed 
 ```

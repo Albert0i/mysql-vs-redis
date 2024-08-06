@@ -9,7 +9,7 @@ async function main() {
 
    // Seed new data 
    for (i = 1; i <= 1000 * 1000; i++) {
-     j = Math.floor(Math.random() * 100)    
+     j = Math.floor(Math.random() * 100)
      response = await redisClient.hmset(`posts:${i}`, {
         id: i, 
         userId: postsData[j].userId,
