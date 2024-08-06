@@ -2,7 +2,9 @@
 
 
 #### Prologue 
-Time, as an ambiguous concept, hardly can one get hold of. We can definitely say *sixty years is too short* and at the same time *60 seconds is too long* without any contradictions. It all depends on where we stand and how we view. Ever since I started learning Redis, I was told that it is very fast.... But how fast it is when comparing to [MySQL](https://www.mysql.com/), for example? IMHO, SQL Server was an ingenious invention which solves hundreds and thousands of problems in day-to-day life. What the dickens are we doing with Redis? What we gain and what we lose? These are the main subject of this article. 
+Time, as an ambiguous concept, hardly can one get hold of. We can definitely say *sixty years is too short* and at the same time *60 seconds is too long* without any contradictions. It all depends on where we stand and how we view. Ever since I started learning Redis, I was told that it is very fast.... But how fast it is when comparing to [MySQL](https://www.mysql.com/), for example? 
+
+IMHO, SQL Server was an ingenious invention which solves hundreds and thousands of problems in day-to-day life. What the dickens are we doing with Redis? What we gain and what we lose? These are the main subject of this article. 
 
 
 #### I. System setup 
