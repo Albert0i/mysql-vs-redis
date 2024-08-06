@@ -80,14 +80,16 @@ In Redis, the story is different. To get 100,000 posts is 10986 ms, 0.10986 ms p
 
 As you can see, all tests are done locally. No network latency nor routing overhead involved. The numbers are in theory but not factitious. 
 
+
+#### III. introspection
 Modern RDBMS index is organized in form of [B-tree](https://en.wikipedia.org/wiki/B-tree), time complexity is O(log n). As of our setting, 1,000,000 records is Log(1,000,000)/Log(2) ≈ 20. To query any record via primary key, maximum number of comparisons is 20 until the index is met or no record found. Once the location of record is acquainted, a second read is performed and record returned thereupon. Index is maintained by system and not always unpalpable, everything has its own cost in terms of space and CPU time. 
 
-Data in RDBMS is stored closely togther, index is essential means to enable fast access. In Redis, data is stored scatteringly, the actual position of data is obtained via calculation of key. No additional space and time on index is needed and constant time access is always ensured. 
+Data in RDBMS is stored closely togther, index is essential mean to enable fast access. In Redis, data is stored scatteringly, the actual location of data is obtained via calculation of key. No additional space and time on index is required and constant time access is always ensured. 
 
 Our test shows that primary key access in Redis is four times faster than MySQL. 
 
 
-#### III. Bibliography 
+#### IV. Bibliography 
 1. [ioredis](https://github.com/redis/ioredis)
 2. [MySQL/MariaDB](https://www.prisma.io/docs/orm/overview/databases/mysql)
 3. [jest](https://www.npmjs.com/package/jest?activeTab=readme)
@@ -95,6 +97,7 @@ Our test shows that primary key access in Redis is four times faster than MySQL.
 
 
 #### Epilogue 
+Balancing the speed and flexibility of query, RDBMS such as MySQL, is always a good move. But there are some cases where speed is in predominant position, Redis would be an obvious choice. 
 
 
 ### EOF (2024/08/09)
