@@ -16,7 +16,7 @@ npm install jest --save-dev
 
 Sample data are [100 posts](https://jsonplaceholder.typicode.com/posts) from [{JSON} Placeholder](https://jsonplaceholder.typicode.com/). I slight modify it for easy ingestion. 
 
-MySQL Version 8.0.30 and Redis Version 7.4.2 are installed locally.
+MySQL Version 8.0.30 and Redis Version 7.2.4 are installed locally.
 ![alt mysql](img/mysql.JPG)
 ![alt redis](img/redis.JPG)
 
