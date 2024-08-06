@@ -76,7 +76,7 @@ I do not oppose to the idea of ORM but it does pose some overhead. Using raw SQL
 
 ![alt redis](img/test-redis.JPG)
 
-In Redis, the story is different. To get 100,000 posts is 10986 ms, 0.10986 per post. Which means our Redis server can serve 9102 read requests per second in current setting. 
+In Redis, the story is different. To get 100,000 posts is 10986 ms, 0.10986 ms per post. Which means our Redis server can serve 9102 read requests per second in current setting. 
 
 
 #### III. Bibliography 
