@@ -47,7 +47,7 @@ To create Prisma Client, which is for ORM:
 npx prisma generate 
 ```
 
-Add this code fragment to package.json: 
+Add this code fragment to `package.json`: 
 ```
   "prisma": {
     "seed": "node prisma/seed-mysql.js"
