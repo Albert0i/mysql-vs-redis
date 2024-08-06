@@ -54,7 +54,7 @@ Add this code fragment to package.json:
   }
 ```
 
-Add `seed-mysql.js` to prisma folder, and to seed database with: 
+Add `seed-mysql.js` to `prisma` folder, and to seed database with: 
 ```
 npx prisma db seed 
 ```
