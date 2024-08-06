@@ -2,23 +2,19 @@ import { redisClient } from './redisClient.js'
 import { postsData } from '../../data/postsData.js'
 
 async function main() {
-   let response, i, j 
+   let response
    // Erase old data... 
+   // response = await prisma.movie.deleteMany()
+   // Won't reset autonum field to 1 !!!
    response = await redisClient.flushdb()
-   console.log('Data flushed')
+   console.log('Data flushed') 
 
    // Seed new data 
-   for (i = 1; i <= 1000 * 1000; i++) {
-     j = Math.floor(Math.random() * 100)    
-     response = await redisClient.hmset(`posts:${i}`, {
-        id: i, 
-        userId: postsData[j].userId,
-        title: postsData[j].title,
-        body: postsData[j].body 
-      } ) 
-     if (Math.floor(i/10000) === (i/10000) ) console.log(`${i}`)
-    }
-    console.log('Done') 
+   for (let i = 0; i < postsData.length; i++) {      
+     response = await redisClient.hmset(`posts:${postsData[i].id}`, postsData[i] ) 
+     console.log(`posts:${postsData[i].id} is ${response}`)
+   }
+    console.log(`${postsData.length} hash(es) created`) 
   }
 
 main()

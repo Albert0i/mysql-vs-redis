@@ -7,9 +7,9 @@
   "scripts": {
     "redis": "start \"redis server\" /MIN redis-server ./redis/conf/redis.conf",    
     "seed-redis": "node src/config/seed-redis.js",
-    "test-redis":"node src/config/seed-redis.js && npm test test/redis.test.js",
+    "test-redis":"npm test test/redis.test.js",
     "seed-mysql":"npx prisma db seed",
-    "test-mysql":"npx prisma db seed && npm test test/sql.test.js",
+    "test-mysql":"npm test test/sql.test.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [],
@@ -24,6 +24,6 @@
     "jest": "^29.7.0"
   },
   "prisma": {
-    "seed": "node prisma/seed.js"
+    "seed": "node prisma/seed-mysql.js"
   }
 }

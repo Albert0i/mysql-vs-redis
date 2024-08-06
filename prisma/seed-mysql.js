@@ -4,21 +4,25 @@ import { postsData } from '../data/postsData.js'
 const prisma = new PrismaClient()
 
 async function main() {
-   let response
+   let response, i, j 
    // Erase old data... 
-   // response = await prisma.movie.deleteMany()
-   // Won't reset autonum field to 1 !!!
    response = await prisma.$executeRaw`truncate table posts`
    console.log('Table truncated') 
 
-   // Seed new data 
-   for (let i = 0; i < postsData.length; i++) {      
-     response = await prisma.posts.create({
-       data: postsData[i]
-     })
-     console.log(`posts:${postsData[i].id} is OK`)
-   }
-    console.log(`${postsData.length} record(s) created`) 
+  // Seed new data 
+  for (i = 1; i <= 1000 * 1000; i++) {
+    j = Math.floor(Math.random() * 100)
+    response = await prisma.posts.create({
+        data: {
+          id: i, 
+          userId: postsData[j].userId,
+          title: postsData[j].title,
+          body: postsData[j].body 
+        }
+      })
+    if (Math.floor(i/10000) === (i/10000) ) console.log(`${i}`)
+  }
+  console.log('Done') 
   }
 
 main()
