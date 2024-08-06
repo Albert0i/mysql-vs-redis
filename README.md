@@ -84,7 +84,7 @@ As you can see, all tests are done locally. No network latency nor routing overh
 
 
 #### III. introspection
-Modern RDBMS index is organized in form of [B-tree](https://en.wikipedia.org/wiki/B-tree), time complexity is O(log n). As of our setting, 1,000,000 records is Log(1,000,000)/Log(2) ≈ 20. To query any record via primary key, maximum number of comparisons is 20 until the index is met or no record found. Once the location of record is acquainted, a second read is performed and record returned thereupon. Index is maintained by system and not always palpable, but everything has its own cost in terms of space and CPU time. 
+Modern RDBMS index is organized in form of [B-tree](https://en.wikipedia.org/wiki/B-tree), time complexity is O(log n). As of our setting, 1,000,000 records is Log(1,000,000)/Log(2) ≈ 20. To query any record via primary key, maximum number of comparisons is 20 until the index is met or no record found. Once the location of record is known, a second read is performed and record returned thereupon. Index is maintained by system and not always palpable, but everything has its own cost in terms of space and CPU time. 
 
 Data in RDBMS is stored closely togther, index is essential mean to enable fast access. In Redis, data is stored scatteringly, the actual location of data is obtained via calculation of key. No additional space and time on index is required and constant time access is always ensured. 
 
