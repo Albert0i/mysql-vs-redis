@@ -67,8 +67,8 @@ npm run seed-redis
 ![alt posts redis](img/posts-redis.JPG)
 
 
-#### II. Test Test Test
-We create 1,000,000 records in MySQL and 1,000,000 hashes in Redis. The test is based on retrieving 100,000 records/hashes via primary key by random. Repeatedly running several times until the yields become stable. 
+#### II. Read Test
+We create 1,000,000 records in MySQL and 1,000,000 hashes in Redis. The test is based on retrieving 100,000 records/hashes via primary key by random. Repeatedly running until the yields become stable. 
 
 ![alt sql](img/test-sql.JPG)
 
@@ -79,6 +79,10 @@ I do not oppose to the idea of ORM but it does pose some overhead. Using raw SQL
 In Redis, the story is different. To get 100,000 posts is 10986 ms, 0.10986 ms per post. Which means our Redis server can serve 9102 read requests per second in current setting. 
 
 As you can see, all tests are done locally. No network latency nor routing overhead involved. The numbers are in theory but not factitious. 
+
+Modern RDBMS index is organized in form of [B-tree](https://en.wikipedia.org/wiki/B-tree), time complexity is O(log n). As of our setting, 1,000,000 records is Log(1,000,000)/Log(2) ≈ 20. To query any record via primary key, maximum number of comparisons is 20 until the index is met or no record found. Once the location of record is acquainted, a second read is performed and record returned thereupon. Index is maintained by system and not always unpalpable, everything has its own cost in terms of space and CPU time. 
+
+Data in RDBMS is stored closely togther, index is essential means to enable fast access. In Redis, data is stored scatteringly, the actual position of data is obtained via calculation of key. No additional space and time on index is needed and constant time access is always obtained. Our test shows that around 4 times faster. 
 
 
 #### III. Bibliography 
