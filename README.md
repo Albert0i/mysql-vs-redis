@@ -2,7 +2,7 @@
 
 
 #### Prologue 
-Time, as an ambiguous concept, hardly can one get hold of. We can definitely say *sixty years is too short* and at the same time *60 seconds is too long* without any contradictions. It all depends on where we stand and how we view. Ever since I started learning Redis, I was told that it is very fast.... But how fast it is when comparing to MySQL, for example? IMHO, SQL Server was an ingenious invention which solves hundreds and thousands of problems in day-to-day life. What the dickens are we doing with Redis? What we gain and what we lose? These are the main subject of this article. 
+Time, as an ambiguous concept, hardly can one get hold of. We can definitely say *sixty years is too short* and at the same time *60 seconds is too long* without any contradictions. It all depends on where we stand and how we view. Ever since I started learning Redis, I was told that it is very fast.... But how fast it is when comparing to [MySQL](https://www.mysql.com/), for example? IMHO, SQL Server was an ingenious invention which solves hundreds and thousands of problems in day-to-day life. What the dickens are we doing with Redis? What we gain and what we lose? These are the main subject of this article. 
 
 
 #### I. System setup 
@@ -14,7 +14,11 @@ npm install jest --save-dev
 
 Sample data are [100 posts](https://jsonplaceholder.typicode.com/posts) from [{JSON} Placeholder](https://jsonplaceholder.typicode.com/). I slight modify it for easy ingestion to databases. 
 
-MySQL Version 8.0.30 and Redis Version 7.4.2 are installed locally, we choose package prisma for MySQL and ioredis for Redis. Choosing prisma simply because it's possible to move to other RDBMS with ease and can compare ORM and raw SQL performance. 
+MySQL Version 8.0.30 and Redis Version 7.4.2 are installed locally.
+![alt mysql](img/mysql.JPG)
+![alt redis](img/redis.JPG)
+
+Choose [prisma](https://www.npmjs.com/package/prisma) for MySQL and [ioredis](https://github.com/redis/ioredis) for Redis. Simply because prisma is cross platform and we can compare ORM and raw SQL performance whenever necessary. 
 
 To begin with: 
 ```
