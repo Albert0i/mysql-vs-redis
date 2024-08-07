@@ -20,8 +20,8 @@ test("select and delete 100,000 posts (ORM)", async () => {
     for (let i=1; i <= 100000; i++) {
         j = Math.floor(Math.random() * 1000000) + 1;
         response = await prisma.posts.findUnique( { where: { id: j } } ) 
-
-        await prisma.posts.delete( { where: { id: j } } )
+        
+        await prisma.posts.deleteMany( { where: { id: j } } )
     }
 }, 60 * 60 * 1000)
 
