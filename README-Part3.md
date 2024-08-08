@@ -8,8 +8,6 @@ To quest for ultimate power, to revenge for his dead buddies, [ZX-Tole](https://
 #### I. Desperation
 > Storage engines are MySQL components that handle the SQL operations for different table types. [InnoDB](https://dev.mysql.com/doc/refman/8.4/en/innodb-introduction.html) is the default and most general-purpose storage engine, and Oracle recommends using it for tables except for specialized use cases. (The `CREATE TABLE` statement in MySQL 8.4 creates InnoDB tables by default.)
 
-> [InnoDB](https://dev.mysql.com/doc/refman/8.4/en/innodb-introduction.html) is a general-purpose storage engine that balances high reliability and high performance. 
-
 > The [MEMORY Storage Engine](https://dev.mysql.com/doc/refman/8.4/en/memory-storage-engine.html) (formerly known as HEAP) creates special-purpose tables with contents that are stored in memory. Because the data is vulnerable to crashes, hardware issues, or power outages, only use these tables as temporary work areas or read-only caches for data pulled from other tables.
 
 > In-memory storage for fast access and low latency. Data volume can fit entirely in memory without causing the operating system to swap out virtual memory pages.
