@@ -90,6 +90,8 @@ Data in RDBMS is stored closely togther, index is essential mean to enable fast 
 
 Our test shows that primary key access in Redis is four times faster than in MySQL. 
 
+[Contine to part two](README-Part2.md)
+
 
 #### IV. Bibliography 
 1. [ioredis](https://github.com/redis/ioredis)
