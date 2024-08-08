@@ -65,12 +65,12 @@ Comparing to the figures in [Part two](README-Part2.md), performance is increase
 
 
 #### VI. Bibliography 
-[18.3 The MEMORY Storage Engine](https://dev.mysql.com/doc/refman/8.4/en/memory-storage-engine.html)
+1. [18.3 The MEMORY Storage Engine](https://dev.mysql.com/doc/refman/8.4/en/memory-storage-engine.html)
 
 
 #### Epilogue
-
 ![alt machine info](img/machine-info.JPG)
+
 
 #### EOF (2024/08/09)
 
