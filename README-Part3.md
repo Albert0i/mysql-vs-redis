@@ -51,7 +51,7 @@ npm test -t sql-update
 ```
 ![alt sql update mem](img/test-sql-update-mem.JPG)
 
-Comparing to the figures in [Part two](README-Part2.md), performance is increased by half and still twice slower than in Redis. 
+Comparing to the figures in [Part two](README-Part2.md), around 15~25% performance gained but still twice as much in Redis. 
 
 
 #### IV.  Read and Delete 
@@ -60,7 +60,7 @@ npm test -t sql-delete
 ```
 ![alt sql delete mem](img/test-sql-delete-mem.JPG)
 
-Comparing to the figures in [Part two](README-Part2.md), performance is increased by one third and still 3 times slower than in Redis. 
+Comparing to the figures in [Part two](README-Part2.md), around 15~25% performance gained but still twice as much in Redis. 
 
 
 #### V. Introspection 
