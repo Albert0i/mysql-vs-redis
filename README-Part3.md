@@ -73,31 +73,3 @@ Comparing to the figures in [Part two](README-Part2.md), performance is increase
 
 
 #### EOF (2024/08/09)
-
-> The MEMORY storage engine (formerly known as HEAP) creates special-purpose tables with contents that are stored in memory. Because the data is vulnerable to crashes, hardware issues, or power outages, only use these tables as temporary work areas or read-only caches for data pulled from other tables.
-
-> In-memory storage for fast access and low latency. Data volume can fit entirely in memory without causing the operating system to swap out virtual memory pages.
-
-Run the following SQL commands: 
-```
-DROP TABLE posts;
-
-CREATE TABLE posts (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    userId INT NOT NULL,
-    title VARCHAR(128) NOT NULL,
-    body VARCHAR(256) NOT NULL
-) ENGINE=MEMORY;
-```
-Add to `my.ini`: 
-```
-SET max_heap_table_size = 1680M;
-```
-
-Desperation drives
-To pray for overwhelming powder triumphing Guyver, ZX-Tole sacrifices his glory and life to revenge for his dead buddies. 
-Desperation, regardless of costs. last resort. ultimate, forbidden tricks. 
-extreme squeeze and twist. 
-
-
-
