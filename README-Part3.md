@@ -38,7 +38,7 @@ npx prisma db seed
 
 ![alt mem1](img/mysql-size-mem-1.JPG)
 
-Instead of `BTree`, `HASH` is used for primary key access. This is comparative Redis. As you can see, how versatile and resourceful it is! 
+Instead of `BTree`, `HASH` is used for primary key access. This is comparative to Redis. As you can see, how versatile and resourceful it is! 
 
 ![alt mem2](img/mysql-size-mem-2.JPG)
 
