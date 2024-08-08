@@ -38,13 +38,18 @@ To `my.ini`. Shut down and restart MySQL. Re-seed database with:
 npx prisma db seed 
 ```
 
+![alt mem1](img/mysql-size-mem-1.JPG)
+
+![alt mem2](img/mysql-size-mem-2.JPG)
+
+
 #### III. Read and Update 
 ```
 npm test -t sql-update 
 ```
 ![alt sql update mem](img/test-sql-update-mem.JPG)
 
-Comparing to the figures in [Part two](README-Part2.md), performance is increased by half and still 3 times slower than in Redis. 
+Comparing to the figures in [Part two](README-Part2.md), performance is increased by half and still twice slower than in Redis. 
 
 
 #### IV.  Read and Delete 
@@ -53,7 +58,7 @@ npm test -t sql-delete
 ```
 ![alt sql delete mem](img/test-sql-delete-mem.JPG)
 
-Comparing to the figures in [Part two](README-Part2.md), performance is increased by one third and still twice as much in Redis. 
+Comparing to the figures in [Part two](README-Part2.md), performance is increased by one third and still 3 times slower than in Redis. 
 
 
 #### V. Introspection 
