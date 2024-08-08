@@ -1,4 +1,4 @@
-### MySQL vs Redis ─── The final struggle 
+### MySQL vs Redis ─── The Final Struggle 
 
 
 #### Prologue 

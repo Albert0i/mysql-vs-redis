@@ -1,11 +1,11 @@
-### MySQL vs Redis ─── The Match goes on... 
+### MySQL vs Redis ─── The Match Must Goes On... 
 
-![alt ](img/test-sql-update.JPG)
+![alt sql update](img/test-sql-update.JPG)
 
-![alt ](img/test-redis-update.JPG)
+![alt redis update](img/test-redis-update.JPG)
 
-![alt ](img/test-sql-delete-orm.JPG)
+![alt sql delete orm](img/test-sql-delete-orm.JPG)
 
-![alt ](img/test-sql-delete.JPG)
+![alt sql delete raw](img/test-sql-delete.JPG)
 
-![alt ](img/test-sql-delete.JPG)
+![alt redis delete](img/test-redis-delete.JPG)
