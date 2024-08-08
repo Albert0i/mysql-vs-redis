@@ -1,6 +1,8 @@
 ### MySQL vs Redis ─── The Match Must Goes On... 
 
+
 #### Prologue 
+More investigations have to be done to solve the riddle of figures. 
 
 
 #### I. Read and Update 
@@ -18,8 +20,8 @@
 
 [Contine to part three](README-Part3.md)
 
+
 #### Epilogue
-"Well," she said softly, "this is the end. WE cannot permit our plans to be interfered with. Have you any last request to make?"
 
 
 #### EOF (2024/08/09)
