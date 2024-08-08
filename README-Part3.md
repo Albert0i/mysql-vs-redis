@@ -2,7 +2,7 @@
 
 
 #### Prologue 
-To quest for ultimate power, to revenge for his dead buddies, [ZX-Tole](https://guyver.fandom.com/wiki/ZX-Tole) sacrificed his glories life to transmorph himself into [Neo ZX-Tole](https://guyver.fandom.com/wiki/Neo-ZX-Tole) in an effort to triumph over [Guyver](https://guyver.fandom.com/wiki/Guyver_Unit). With overwhelming speed and forbidden weapon, he knew well that his capability is unrivalled but his days were numbered. No matter win or lose, after the final battle he *must* die... 
+To quest for ultimate power, to revenge for his dead buddies, [ZX-Tole](https://guyver.fandom.com/wiki/ZX-Tole) sacrificed his glories and life to transmorph himself into [Neo ZX-Tole](https://guyver.fandom.com/wiki/Neo-ZX-Tole) in an effort to triumph over [Guyver](https://guyver.fandom.com/wiki/Guyver_Unit). With overwhelming speed and forbidden weapon, he knew well that his capability is unrivalled but his days were numbered. No matter win or lose, after the final battle he *must* die... 
 
 
 #### I. Desperation
