@@ -93,4 +93,3 @@ And all tests I made, I can safely draw my conclusion:
 
 
 #### EOF (2024/08/09)
-brilliant
