@@ -28,7 +28,7 @@ CREATE TABLE posts (
 
 Meanwhile, We need to increase heap size (default is 512M) to accommodate the data. Add the folliwing line to `my.ini` of local system: 
 ```
-SET max_heap_table_size = 1680M;
+max_heap_table_size = 1680M;
 ```
 
 Re-seed database with: 
@@ -42,7 +42,7 @@ Instead of `BTree`, `HASH` is used for primary key access. This is comparative t
 
 ![alt mem2](img/mysql-size-mem-2.JPG)
 
-Data base size is 1.5G! Crafting tables in memory is forbidden trick in RDBMS since it violates durability of [ACID](https://en.wikipedia.org/wiki/ACID) principle and is the last resort to performance demand. All data vanish if server crashed or restarted... 
+Data base size is 1.5G! Crafting tables in memory is *forbidden* trick in RDBMS since it violates durability in [ACID](https://en.wikipedia.org/wiki/ACID) principle and is the last resort to performance demand. All data vanish if server crashed or restarted... 
 
 
 #### III. Read and Update 
