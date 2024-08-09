@@ -40,14 +40,15 @@ Let's continue with read and delete.
 
 [Contine to part three](README-Part3.md)
 
-
-#### Epilogue
-
+#### IV. Database size 
 ![alt mysql size](img/mysql-size.JPG)
 
 ![alt redis size](img/redis-size.JPG)
 
+
+#### Epilogue
 ![alt 1234](img/vlcsnap-2024-08-07-14h43m48s804.png)
+
 
 #### EOF (2024/08/09)
 brilliant
