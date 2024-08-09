@@ -42,7 +42,7 @@ Instead of `BTree`, `HASH` is used for primary key access. This is comparative t
 
 ![alt mem2](img/mysql-size-mem-2.JPG)
 
-Data base size is 1.5G! 
+Data base size is 1.5G! Crafting tables in memory is forbidden tricks in RDBMS since it violates durability of [ACID](https://en.wikipedia.org/wiki/ACID) principle and is the last resort to performance demand. All data vanish if server crashed or restarted... 
 
 
 #### III. Read and Update 
