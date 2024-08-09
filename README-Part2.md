@@ -19,10 +19,13 @@ Some people has complexion on using raw SQL while others said it is *old-school*
 According to Prisma [CRUD](https://www.prisma.io/docs/orm/prisma-client/queries/crud) doc, rewrite test suite and use `findUnique` instead of `findMany`. The test is extended as: 
 1. To get 100,000 out of 1,000,000 posts by random (ORM/SQL);
 2. To get 100,000 out of 1,000,000 posts by random and update userId, title and body fields (ORM/SQL); 
-
 ![alt sql update](img/test-sql-update.JPG)
 
+How brilliant the figures! And thanks to my M.2 SSD... The overhead on ORM update is obvious; on the other hand SQL update is faster than expected. 
+
+
 ![alt redis update](img/test-redis-update.JPG)
+
 
 
 #### III. Read and Delete 
