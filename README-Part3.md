@@ -2,7 +2,7 @@
 
 
 #### Prologue 
-To quest for ultimate power, to revenge for his dead buddies, [ZX-Tole](https://guyver.fandom.com/wiki/ZX-Tole) sacrificed his glories and life to transmorph himself into [Neo ZX-Tole](https://guyver.fandom.com/wiki/Neo-ZX-Tole) in an effort to triumph over [Guyver](https://guyver.fandom.com/wiki/Guyver_Unit). With overwhelming speed and forbidden weapon, he knew well that his capability is unrivalled but his days were numbered. No matter win or lose, he *must* die after all... 
+To quest for ultimate power, to revenge for his dead buddies, [ZX-Tole](https://guyver.fandom.com/wiki/ZX-Tole) sacrificed his glories and life to transmorph himself into [Neo ZX-Tole](https://guyver.fandom.com/wiki/Neo-ZX-Tole) in an effort to triumph over [Aptom](https://monster.fandom.com/wiki/Aptom). With overwhelming speed and forbidden weapon, he knew well that his capability is unrivalled but his days were numbered. No matter win or lose, he *must* die after all... 
 
 
 #### I. Desperation
@@ -42,7 +42,7 @@ Instead of `BTree`, `HASH` is used for primary key access. This is comparative t
 
 ![alt mem2](img/mysql-size-mem-2.JPG)
 
-Data base size is 1.5G! Crafting tables in memory is forbidden tricks in RDBMS since it violates durability of [ACID](https://en.wikipedia.org/wiki/ACID) principle and is the last resort to performance demand. All data vanish if server crashed or restarted... 
+Data base size is 1.5G! Crafting tables in memory is forbidden trick in RDBMS since it violates durability of [ACID](https://en.wikipedia.org/wiki/ACID) principle and is the last resort to performance demand. All data vanish if server crashed or restarted... 
 
 
 #### III. Read and Update 
