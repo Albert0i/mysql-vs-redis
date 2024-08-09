@@ -2,8 +2,7 @@
 
 
 #### Prologue 
-Figures, figures, figures... 
-More investigations have to be done to solve the riddle of figures. 
+Figures, figures, figures... More investigations have to be made to solve this riddle of figures... 
 
 
 #### I. More on packages 
