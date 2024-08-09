@@ -48,7 +48,7 @@ Same performance as read and update. We can surely say that Redis is of low late
 [Contine to part three](README-Part3.md)
 
 #### IV. Database size 
-Speed and size are contradiction with one and other. 
+Time and space are contradiction with one and other. 
 
 ![alt mysql size](img/mysql-size.JPG)
 
