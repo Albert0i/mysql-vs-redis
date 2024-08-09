@@ -58,6 +58,8 @@ Then in RAM occupied:
 
 
 #### Epilogue
+The brain of the East, the science of the West—and two others whose identities we do not yet know. But we must find out. 
+
 ![alt 1234](img/vlcsnap-2024-08-07-14h43m48s804.png)
 
 

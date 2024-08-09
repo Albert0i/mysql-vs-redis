@@ -74,7 +74,7 @@ With 512G M.2 SSD.
 
 ![alt machine info](img/machine-info.JPG)
 
-By all tests I made, I can *roughly* draw my conclusion: 
+From the tests I made, I can *roughly* draw my conclusion: 
 
 - Redis is 3~4 times faster than MySQL in read access; 
 - Redis is 2 times faster than MySQL in read access (In-memory storage); 
