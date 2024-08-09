@@ -13,7 +13,7 @@ More investigations have to be done to solve the riddle of figures.
 
 ![alt prisma help](img/prisma-help.JPG)
 
-Some people has complexion on using raw SQL while others said it is *old-school* if not to opt ORM of some sort. Personally, I don't oppose to the idea of ORM but it do incur performance penalty somehow. Use it or not depends on skill set and favourite of development team. 
+Some people has complexion on using raw SQL while others said it is *old-school* if not to opt ORM of some sort. Personally, I don't oppose to the idea of ORM but it does incur performance penalty somehow. Use it or not depends on skill set and favourite of development team. 
 
 
 #### II. Read and Update 
