@@ -34,13 +34,15 @@ Let's continue with read and delete. First, ORM:
 
 ![alt sql delete orm](img/test-sql-delete-orm.JPG)
 
-Then, raw SQL: 
+Same performance as read and update. Then, raw SQL: 
 
 ![alt sql delete raw](img/test-sql-delete.JPG)
 
-Let's look at Redis: 
+Raw SQL delete has significant overhead, and so does insert. Let's look at Redis: 
 
 ![alt redis delete](img/test-redis-delete.JPG)
+
+Same performance as read and update.
 
 [Contine to part three](README-Part3.md)
 
