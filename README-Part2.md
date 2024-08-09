@@ -45,14 +45,14 @@ Raw SQL delete has significant overhead, and so does insert. Let's look at Redis
 Same performance as read and update. We can surely say that Redis is of low latency and always matches with one's expectation. 
 
 
-[Contine to part three](README-Part3.md)
-
 #### IV. Database size 
 Time and space are contradiction with one and other. 
 
 ![alt mysql size](img/mysql-size.JPG)
 
 ![alt redis size](img/redis-size.JPG)
+
+[Contine to part three](README-Part3.md)
 
 
 #### Epilogue
