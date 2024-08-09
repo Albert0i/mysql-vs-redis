@@ -26,7 +26,7 @@ How brilliant the figures! And thanks to my M.2 SSD... The overhead on ORM updat
 
 ![alt redis update](img/test-redis-update.JPG)
 
-Three times faster than raw SQL, read and update at the same level. 
+See! Three times faster than raw SQL, read and update at the same level. 
 
 
 #### III. Read and Delete 
@@ -42,6 +42,10 @@ Let's continue with read and delete.
 
 
 #### Epilogue
+
+![alt mysql size](img/mysql-size.JPG)
+
+![alt redis size](img/redis-size.JPG)
 
 ![alt 1234](img/vlcsnap-2024-08-07-14h43m48s804.png)
 
