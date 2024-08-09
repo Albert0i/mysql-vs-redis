@@ -22,7 +22,7 @@ According to Prisma [CRUD](https://www.prisma.io/docs/orm/prisma-client/queries/
 
 ![alt sql update](img/test-sql-update.JPG)
 
-How brilliant the figures! And thanks to my M.2 SSD... The overhead on ORM update is obvious; on the other hand raw SQL update is faster than expected. Let's look at Redis: 
+How brilliant the figures! And thanks to my M.2 SSD... The overhead on ORM update is obvious (≈ 2.3 times slower); on the other hand raw SQL update is faster than expected. Let's look at Redis: 
 
 ![alt redis update](img/test-redis-update.JPG)
 
