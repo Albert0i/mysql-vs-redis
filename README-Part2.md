@@ -2,16 +2,27 @@
 
 
 #### Prologue 
+Figures, figures, figures... 
 More investigations have to be done to solve the riddle of figures. 
 
 
-#### I. Read and Update 
+#### I. More on packages 
+[Jest](https://jestjs.io/) is a delightful JavaScript Testing Framework with a focus on simplicity. [Regression testing](https://en.wikipedia.org/wiki/Regression_testing) is day-to-day life for API developers, test suite is used to facilitate and automate unit test. 
+
+[Prisma](https://www.prisma.io/) is a mature ORM tool which supports multi-databases (one at a time manner) and full [SDLC](https://www.geeksforgeeks.org/software-development-life-cycle-sdlc/). Both Database-First and Code-First bi-directional approach are supported in model building, data migration and studio are handy tools in schema evolution. Chances are when you need raw SQL or you are SQL guru, but there may be subtle and obscure differences in [DML](https://en.wikipedia.org/wiki/Data_manipulation_language) syntax. Using ORM can lower threshold and increase portability when backend migration is needed. 
+
+![alt prisma help](img/prisma-help.JPG)
+
+Some people has complexion on using raw SQL while others said it is *old-school* if not to opt ORM of some sort. Personally, I don't oppose to the idea of ORM but it do incur performance penalty somehow. Use it or not depends on skill set and favourite of development team. 
+
+
+#### II. Read and Update 
 ![alt sql update](img/test-sql-update.JPG)
 
 ![alt redis update](img/test-redis-update.JPG)
 
 
-#### II. Read and Delete 
+#### III. Read and Delete 
 ![alt sql delete orm](img/test-sql-delete-orm.JPG)
 
 ![alt sql delete raw](img/test-sql-delete.JPG)
@@ -23,6 +34,7 @@ More investigations have to be done to solve the riddle of figures.
 
 #### Epilogue
 
+![alt 1234](img/vlcsnap-2024-08-07-14h43m48s804.png)
 
 #### EOF (2024/08/09)
 brilliant
