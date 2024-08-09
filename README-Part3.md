@@ -26,7 +26,7 @@ CREATE TABLE posts (
 ) ENGINE=MEMORY;
 ```
 
-Meanwhile, We need to increase heap size (default is 512M) to accommodate the data. Add the folliwing line to `my.ini` of local system: 
+Meanwhile, We need to increase heap size (default is 512M) to accommodate the data. Add the folliwing line to `my.ini` of local system and restart the server: 
 ```
 max_heap_table_size = 1680M;
 ```
