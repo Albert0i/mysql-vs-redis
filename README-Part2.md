@@ -42,11 +42,14 @@ Raw SQL delete has significant overhead, and so does insert. Let's look at Redis
 
 ![alt redis delete](img/test-redis-delete.JPG)
 
-Same performance as read and update.
+Same performance as read and update. We can surely say that Redis is of low latency and always matches with one's expectation. 
+
 
 [Contine to part three](README-Part3.md)
 
 #### IV. Database size 
+Speed and size are contradiction with one and other. 
+
 ![alt mysql size](img/mysql-size.JPG)
 
 ![alt redis size](img/redis-size.JPG)
