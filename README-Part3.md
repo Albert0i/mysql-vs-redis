@@ -53,11 +53,11 @@ npm test -t sql-update
 
 Comparing to the figures in [Part two](README-Part2.md): 
 
-ORM read : 36200/42278 ≈ 85%, 
-ORM update : (113577-36200)/(143611-42278) = 77377 / 101333 ≈ 76%
+- ORM read : 36200/42278 ≈ 85%, 
+- ORM update : (113577-36200)/(143611-42278) = 77377 / 101333 ≈ 76%
 
-Raw SQL read : 23268/31770 ≈ 73%
-Raw SQL update : (47841-23268)/(57891-31770) = 24573/26121 ≈ 94% 
+- Raw SQL read : 23268/31770 ≈ 73%
+- Raw SQL update : (47841-23268)/(57891-31770) = 24573/26121 ≈ 94% 
 
 
 #### IV.  Read and Delete 
@@ -68,8 +68,8 @@ npm test -t sql-delete
 
 Comparing to the figures in [Part two](README-Part2.md): 
 
-Raw SQL read : 27535 / 34400 ≈ 80% 
-Raw SQL delete : (123476-27535)/(152551-34400) = 95941/98151 ≈ 97% 
+- Raw SQL read : 27535 / 34400 ≈ 80% 
+- Raw SQL delete : (123476-27535)/(152551-34400) = 95941/98151 ≈ 97% 
 
 
 #### V. Introspection 
