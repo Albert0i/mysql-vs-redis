@@ -22,14 +22,16 @@ According to Prisma [CRUD](https://www.prisma.io/docs/orm/prisma-client/queries/
 
 ![alt sql update](img/test-sql-update.JPG)
 
-How brilliant the figures! And thanks to my M.2 SSD... The overhead on ORM update is obvious; on the other hand raw SQL update is faster than expected. 
-
+How brilliant the figures! And thanks to my M.2 SSD... The overhead on ORM update is obvious; on the other hand raw SQL update is faster than expected. Let's look at Redis: 
 
 ![alt redis update](img/test-redis-update.JPG)
 
+Three times faster than raw SQL, read and update at the same level. 
 
 
 #### III. Read and Delete 
+Let's continue with read and delete. 
+
 ![alt sql delete orm](img/test-sql-delete-orm.JPG)
 
 ![alt sql delete raw](img/test-sql-delete.JPG)
