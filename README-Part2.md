@@ -30,11 +30,15 @@ See! Three times faster than raw SQL, read and update at the same level.
 
 
 #### III. Read and Delete 
-Let's continue with read and delete. 
+Let's continue with read and delete. First, ORM: 
 
 ![alt sql delete orm](img/test-sql-delete-orm.JPG)
 
+Then, raw SQL: 
+
 ![alt sql delete raw](img/test-sql-delete.JPG)
+
+Let's look at Redis: 
 
 ![alt redis delete](img/test-redis-delete.JPG)
 
