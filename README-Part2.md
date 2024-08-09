@@ -46,11 +46,11 @@ Same performance as read and update. We can surely say that Redis is of low late
 
 
 #### IV. In terms of size
-Time and space are contradictory with one and other. First in disk space: 
+Time and space are contradictory factors. First in disk space: 
 
 ![alt mysql size](img/mysql-size.JPG)
 
-The other is RAM occupied: 
+Then in RAM occupied: 
 
 ![alt redis size](img/redis-size.JPG)
 
