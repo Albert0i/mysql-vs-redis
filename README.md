@@ -1,4 +1,4 @@
-### MySQL vs Redis ─── A Match in a Million! 
+### MySQL vs Redis ─── A Match In A Million! 
 
 
 #### Prologue 
